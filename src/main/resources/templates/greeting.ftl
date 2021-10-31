@@ -1,6 +1,6 @@
 <#import "parts/common.ftl" as c>
 
 <@c.page>
-<div>Hello, user</div>
-<a href="/main">Main page</a>
+    <h5>Hello, guest</h5>
+    <div>Nice to meet you on my Bootstrap Demo Website!r</div>
 </@c.page>
