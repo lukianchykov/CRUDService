@@ -3,6 +3,7 @@ package andrii.crudservice.domain;
 import javax.persistence.*;
 
 @Entity
+@Table(name = "message")
 public class Message {
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)

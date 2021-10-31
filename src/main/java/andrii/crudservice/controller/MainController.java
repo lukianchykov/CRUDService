@@ -15,6 +15,7 @@ import java.util.Map;
 
 @Controller
 public class MainController {
+
     @Autowired
     private MessageRepo messageRepo;
 
