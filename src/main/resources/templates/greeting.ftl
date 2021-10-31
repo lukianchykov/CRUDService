@@ -2,5 +2,5 @@
 
 <@c.page>
     <h5>Hello, guest</h5>
-    <div>Nice to meet you on my Bootstrap Demo Website!r</div>
+    <div>Nice to meet you on my Bootstrap Demo Website</div>
 </@c.page>

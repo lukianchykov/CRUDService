@@ -1,6 +1,5 @@
 package andrii.crudservice.controller;
 
-
 import andrii.crudservice.domain.User;
 import andrii.crudservice.service.UserSevice;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -32,17 +31,16 @@ public class RegistrationController {
         return "redirect:/login";
     }
 
-    @GetMapping("/activate/{code}")
-    public String activate(Model model, @PathVariable String code){
-        boolean isActivated = userSevice.activateUser(code);
-
-        if(isActivated){
-            model.addAttribute("message", "User successffuly activated");
-        }else{
-            model.addAttribute("message", "Activation code is not found");
-        }
-
-        return "login";
-    }
-
+//    @GetMapping("/activate/{code}")
+//    public String activate(Model model, @PathVariable String code) {
+//        boolean isActivated = userSevice.activateUser(code);
+//
+//        if (isActivated) {
+//            model.addAttribute("message", "User successfully activated");
+//        } else {
+//            model.addAttribute("message", "Activation code is not found!");
+//        }
+//
+//        return "login";
+//    }
 }

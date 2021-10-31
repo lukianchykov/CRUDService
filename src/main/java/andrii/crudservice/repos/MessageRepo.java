@@ -1,6 +1,5 @@
 package andrii.crudservice.repos;
 
-
 import andrii.crudservice.domain.Message;
 import org.springframework.data.repository.CrudRepository;
 
